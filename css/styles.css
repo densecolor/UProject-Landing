@@ -238,6 +238,7 @@ section.your-active-class .landing__container::after {
   opacity: 0;
   z-index: 1000;
 }
+
 .button:hover {
   cursor: pointer;
   background-color: rgb(158, 179, 211);

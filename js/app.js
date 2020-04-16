@@ -117,7 +117,7 @@ function watchSectionScroll(e) {
   for (let i = 0; i < MAX_ITEM; i++) {
     let activeSection = sectionList[i]
     const sectionHeight = activeSection.offsetHeight
-    if (getElementViewTop(sectionList[i]) < 120 && getElementViewTop(sectionList[i]) >-sectionHeight) {
+    if (getElementViewTop(sectionList[i]) < 120 && getElementViewTop(sectionList[i]) > -sectionHeight) {
       activeSection.classList.add('your-active-class')
       menulist[i].classList.add('active')
     } else {
